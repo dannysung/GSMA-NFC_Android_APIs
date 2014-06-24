@@ -2,7 +2,7 @@ package com.gsma.services.nfc;
 
 /**	
  * This class handles group of AID defined in an "Off-Host" service
- * @since NFCHST6.0 <I>(REQ_??)</I>, <a style="color:#FF0000">Host Card Emulation (HCE) support</a>
+ * @since NFCHST6.0 <I>(REQ_??)</I>
  */
 public class AidGroup {
 

@@ -42,11 +42,14 @@ public class Handset {
 	}
 	
 	/**
-	 * Return handset status for the following supported features:<BR><UL>
-	 * <LI>{@link Handset#BATTERY_LOW_MODE}, {@link Handset#BATTERY_POWER_OFF_MODE}</LI>
+	 * Return handset status for the following features:<BR><UL>
+	 * <LI>{@link Handset#HCI_SWP}, {@link Handset#MULTIPLE_ACTIVE_CEE}</LI>
 	 * <LI>{@link Handset#FELICA}, {@link Handset#MIFARE_CLASSIC}, {@link Handset#MIFARE_DESFIRE},
 	 *     {@link Handset#NFC_FORUM_TYPE3}</LI>
-	 * <LI>{@link Handset#MULTIPLE_ACTIVE_CEE}</LI></UL>
+	 * <LI>{@link Handset#OMAPI}</LI>
+	 * <LI>{@link Handset#BATTERY_LOW_MODE}, {@link Handset#BATTERY_POWER_OFF_MODE}</LI>
+	 * <LI>{@link Handset#BIP}, {@link Handset#CAT_TP}</LI></UL>
+	 * @param feature Requested feature
 	 * @return <code>true</code> if the feature is supported; <code>false</code> otherwise
 	 * @exception IllegalArgumentException <BR>Indicate that a method has been passed an illegal or inappropriate argument.
 	 * @since NFCHST6.0 <I>(REQ_??)</I>

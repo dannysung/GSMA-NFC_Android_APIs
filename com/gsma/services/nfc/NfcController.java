@@ -163,6 +163,7 @@ public class NfcController {
 	 * Create a new "Off-Host" service.
 	 * @param description Description of the "Off-Host" service
 	 * @param SEName Secure Element name holding the "Off-Host" service
+	 * @exception UnsupportedOperationException <BR>Indicate that Host Card Emulation (HCE) is not supported.
 	 * @return An instance of an {@link OffHostService} class
 	 * @see <a href="http://www.simalliance.org" target="_blank">SIM Alliance Open Mobile APIs</a> for Secure Element name guidelines
 	 * @since NFCHST6.0 <I>(REQ_??)</I>

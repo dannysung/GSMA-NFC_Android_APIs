@@ -1,10 +1,11 @@
 package com.gsma.services.nfc;
 
+import com.gsma.services.utils.InsufficientResourcesException;
 import android.graphics.drawable.Drawable;
 
 /**	
  * This class handles "Off-Host" services
- * @since NFCHST6.0 <I>(REQ_??)</I>, <a style="color:#FF0000">Host Card Emulation (HCE) support</a>
+ * @since NFCHST6.0 <I>(REQ_??)</I>
  */
 public class OffHostService {
 	
